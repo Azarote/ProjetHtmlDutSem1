@@ -5,7 +5,7 @@ Thème choisi : Véhicule Autonome
 Sujet :
 
 1) Construire un site web HTML/CSS en s’appuyant sur le module M1105. Vous présenterez le site devant un jury le 9 décembre. Il faudra que vous ayez suffisamment étudié le sujet pour savoir les grandes parties qui constitueront votre site. Les titres principaux devront être justes, mais vous pourrez remplir le contenu de vos articles avec du faux texte (Lorem ipsum...). Vous pouvez aussi insérer de fausses images avec http://placehold.it, par exemple comme ceci :
-<img src="http://placehold.it/750x500">
+[img src="http://placehold.it/750x500">]
 
 → Ceci donnera lieu à une note sur le site en M1105 et une note de présentation en M1106 (projet tutoré)
 
