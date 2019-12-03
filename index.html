@@ -20,8 +20,14 @@
 				background-color: #f7f7f7;
 			}
 			
-			.ombre-h1:hover {
-				text-shadow: 2px 2px 4px #000000;
+			
+			.taille-h1{
+				transition: all 0.5s;
+			}
+			
+			.taille-h1:hover {
+				font-size:45px;
+				color:#40b6ff;
 			}
 			
 			.video{
@@ -33,11 +39,25 @@
 				color:grey;
 			}
 			
+			.animation-carte{
+				transition:all 0.5s;
+			}
+			
 			.animation-carte:hover{
 				outline:solid #40b6ff 3px;
 				-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 				-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 				box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+				transition: outline 0.3s;
+			}
+			
+			.clic{
+				transition:font-size 0.5s;
+			}
+			
+			.clic:hover{
+				font-size:40px;
+				transition: font-size 0.5s;
 			}
 		</style>
 	</head>
@@ -148,7 +168,7 @@
 		<!-- Fin du Carousel et début des sections -->
 <!-- ----- Première section ----- -->
 		<article style="margin-top:100px;">
-			<h1><span class="ombre-h1">Fonctionnement d’un véhicule autonome</span></h1>
+			<h1><span class="taille-h1">Fonctionnement d’un véhicule autonome</span></h1>
 			<p class="text-justify">Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus reque publica versantur; ubi enim istum invenias qui honorem amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles plerisque videntur calamitatum societates! Ad quas non est facile inventu qui descendant. Quamquam Ennius recte.</p>
 			<div class="row">
 				<section class="col-sm-2">
@@ -179,7 +199,7 @@
 		
 <!-- ----- Deuxième section ----- -->
 		<article style="margin-top:50px;">
-			<h1><span class="ombre-h1">Les conséquences possibles du développement des véhicules autonomes</span></h1>
+			<h1><span class="taille-h1">Les conséquences possibles du développement des véhicules autonomes</span></h1>
 			<p class="text-justify">Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus reque publica versantur; ubi enim istum invenias qui honorem amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles plerisque videntur calamitatum societates! Ad quas non est facile inventu qui descendant. Quamquam Ennius recte.</p>
 			<div class="row">
 				<div class="col">
@@ -228,7 +248,7 @@
 		
 <!-- ----- Troisième section ----- -->
 		<article style="margin-top:50px;">
-			<h1><span class="ombre-h1">Sécurité et accidents</span></h1>
+			<h1><span class="taille-h1">Sécurité et accidents</span></h1>
 			<p class="text-justify">Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus reque publica versantur; ubi enim istum invenias qui honorem amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles plerisque videntur calamitatum societates! Ad quas non est facile inventu qui descendant. Quamquam Ennius recte.</p>
 			<div class="row">
 				<div class="col-md-4">
@@ -267,7 +287,7 @@
 		
 <!-- ----- Quatrième section ----- -->
 		<article style="margin-top:50px;">
-			<h1><span class="ombre-h1">Enjeux sociaux</span></h1>
+			<h1><span class="taille-h1">Enjeux sociaux</span></h1>
 			<p class="text-justify">Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus reque publica versantur; ubi enim istum invenias qui honorem amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles plerisque videntur calamitatum societates! Ad quas non est facile inventu qui descendant. Quamquam Ennius recte.</p>
 			<div class="row">
 				<div class="col-md-4">
@@ -306,7 +326,7 @@
 		
 <!-- ----- Cinquième section ----- -->
 		<article style="margin-top:50px;">
-			<h1><span class="ombre-h1">Divers</span></h1>
+			<h1><span class="taille-h1">Divers</span></h1>
 			<p class="text-justify">Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus reque publica versantur; ubi enim istum invenias qui honorem amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles plerisque videntur calamitatum societates! Ad quas non est facile inventu qui descendant. Quamquam Ennius recte.</p>
 			<div class="row">
 				<div class="col">
@@ -355,9 +375,9 @@
 		
 <!-- ----- Vidéo à la Une ----- -->
 		<article style="margin-top:50px;">
-			<h1><span class="ombre-h1">Vidéo à la Une</span></h1>
+			<h1><span class="taille-h1">Vidéo à la Une</span></h1>
 			<div class="text-center"><iframe class="video" width="704" height="396" src="https://www.youtube.com/embed/49t5hph7bTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-				<h2 class="text-center" style="margin-top:10px;">Plus de vidéos disponibles <a href="videos.html">en cliquant ici !</a></h2>
+				<h2 class="text-center" style="margin-top:10px;">Plus de vidéos disponibles <a href="videos.html" class="clic">en cliquant ici !</a></h2>
 			</div>
 
 		<!-- footer -->
