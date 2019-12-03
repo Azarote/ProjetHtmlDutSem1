@@ -93,10 +93,37 @@
 				</nav>
 		</header>
 		<div class="container">
-		<article style="margin-top:100px;">
-			<h1><span class="ombre-h1">Nous contacter</span></h1>
-			
-		</article>
+			<div class="jumbotron">
+				<h1 class="display-4">Nous contacter</h1>
+				<p class="lead">N'hésitez-pas à nous contacter en utilisant le formulaire ci-dessous si vous avez des questions ou des réclamations éventuelles.</p>
+				<hr class="my-4">
+					<form>
+					  <div class="form-group">
+						<label for="exampleFormControlInput1">Adresse Email</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@exemple.com">
+					  </div>
+					  <div class="form-group">
+						<label for="exampleFormControlSelect1">Objet</label>
+						<select class="form-control" id="exampleFormControlSelect1">
+						  <option>Sélectionnez dans la liste ></option>
+						  <option>Question sur le site</option>
+						  <option>Réclamations</option>
+						  <option>Copyright</option>
+						  <option>Conseils</option>
+						  <option>Autres...</option>
+						</select>
+					  </div>
+					  <div class="form-group">
+						<label for="exampleFormControlTextarea1">Description</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+					  <div class="form-group">
+						<label for="exampleFormControlFile1">Choisir un fichier (facultatif)</label>
+						<input type="file" class="form-control-file" id="exampleFormControlFile1">
+					  </div>
+					</form>
+					<a class="btn btn-success" href="index.html" role="button">Envoyer et retourner à l'accueil</a>
+			</div>
 		</div>
 		
 		<footer class="footer-distributed" >
