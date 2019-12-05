@@ -1,0 +1,33 @@
+.marquee-rtl {
+  width: 100%;
+  margin: 1em auto 2em;
+  border: 2px solid #F0F0FF;
+  overflow: hidden;
+  box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+  background-color:white;
+}
+.marquee-rtl > :first-child {
+  display: inline-block;      /* modéle de boîte en ligne */
+  padding-right: 2em;         /* un peu d'espace pour la transition */
+  padding-left: 100%;         /* placement à doite du conteneur */
+  white-space: nowrap;        /* pas de passage à la ligne */
+  animation: defilement-rtl 30s infinite linear;
+  will-change: transform;     /* optimise l'animation */
+  cursor: pointer;
+}
+.marquee-rtl:hover :first-child {
+  animation-play-state: paused;
+}
+
+@keyframes defilement-rtl {
+  0% {
+    transform: translate3d(0,0,0);
+  }
+  100% {
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.texte-deroulant{
+	margin-bottom:0px;
+}
