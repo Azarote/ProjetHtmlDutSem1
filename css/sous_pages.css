@@ -12,7 +12,7 @@ h2{
 	margin-bottom:30px;
 }
 
-/* Suppléments videos.html */
+/* Compléments videos.html */
 .video-sspage{
 	outline:solid #40b6ff 4px;
 	transition:all 0.5s;
@@ -26,7 +26,7 @@ h2{
 	transition: all 0.5s;
 }
 
-/* Suppléments contact.html */
+/* Compléments contact.html */
 .contact-h1{
 	transition: all 0.5s;
 }
@@ -36,6 +36,21 @@ h2{
 	color:#40b6ff;
 }
 
+/* Compléments vision.html */
+#boutonenvoyer{
+	margin:20px 0px 0px 100px;
+	border-radius:15px;
+	padding: 0 20px;
+
+}
+
+#formesondage{
+	border:solid grey 1px;
+	border-radius:20px;
+	padding:20px;
+	width:540px;
+}
+		
 /* Animations */
 .taille-h1{
 	transition: all 0.5s;
