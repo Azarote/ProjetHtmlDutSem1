@@ -1,0 +1,43 @@
+/* style global */
+body {
+	background-color: #f7f7f7;
+}
+
+h2{
+	color:grey;
+}
+
+#back-to-top{
+	font-size:35px;
+	margin-bottom:30px;
+}
+
+/* Animations */
+.taille-h1{
+	transition: all 0.5s;
+}
+
+.taille-h1:hover {
+	font-size:45px;
+	color:#40b6ff;
+}
+
+.titre{
+	transition:font-size 0.5s;
+}
+
+.titre:hover{
+	font-size:25px;
+	transition: font-size 0.5s;
+}
+
+/* Animation logo */
+.rotate{
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.rotate:hover{
+  -webkit-transform: rotate(-720deg);
+  transform: rotate(-720deg);
+}
