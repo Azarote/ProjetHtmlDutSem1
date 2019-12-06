@@ -1,5 +1,5 @@
 /* style global */
-body {
+body{
 	background-color: #f7f7f7;
 }
 
@@ -10,6 +10,30 @@ h2{
 #back-to-top{
 	font-size:35px;
 	margin-bottom:30px;
+}
+
+/* Suppléments videos.html */
+.video-sspage{
+	outline:solid #40b6ff 4px;
+	transition:all 0.5s;
+}
+
+.video-sspage:hover{
+	outline:solid red 4px;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	transition: all 0.5s;
+}
+
+/* Suppléments contact.html */
+.contact-h1{
+	transition: all 0.5s;
+}
+
+.contact-h1:hover {
+	font-size:70px;
+	color:#40b6ff;
 }
 
 /* Animations */
