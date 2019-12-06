@@ -29,6 +29,11 @@
 				color:#40b6ff;
 			}
 			
+			#back-to-top{
+				font-size:35px;
+				margin-bottom:30px;
+			}
+			
 			/* Animation logo */
 			.rotate{
 			  -webkit-transition: all 1s ease;
@@ -43,7 +48,8 @@
 	</head>
 	
 	<body>
-		<header>
+		<div style="text-align:right;"><a href="#top" class="fixed-bottom"><span id="back-to-top" class="oi oi-arrow-circle-top"></span></a></div>
+		<header id="top">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 				<a class="navbar-brand" href="index.html"><img src="logo.png" class="rotate" width="60"><strong> Véhicules autonomes</strong></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

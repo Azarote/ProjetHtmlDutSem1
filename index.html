@@ -30,6 +30,11 @@
 				color:grey;
 			}
 			
+			#back-to-top{
+				font-size:35px;
+				margin-bottom:30px;
+			}
+			
 			/* Animations */
 			.taille-h1{
 				transition: all 0.5s;
@@ -87,7 +92,8 @@
 	</head>
 	
 	<body>
-		<header>
+		<div style="text-align:right;"><a href="#top" class="fixed-bottom"><span id="back-to-top" class="oi oi-arrow-circle-top"></span></a></div>
+		<header id="top">
 			<!-- Barre de navigation -->
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 				<a class="navbar-brand" href="index.html"><img src="logo.png" class="rotate" width="60"><strong> <span class="titre">Véhicules autonomes</span></strong></a>
