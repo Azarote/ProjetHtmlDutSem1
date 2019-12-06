@@ -13,7 +13,7 @@
   padding-right: 2em;         /* un peu d'espace pour la transition */
   padding-left: 100%;         /* placement à doite du conteneur */
   white-space: nowrap;        /* pas de passage à la ligne */
-  animation: defilement-rtl 30s infinite linear;
+  animation: defilement-rtl 45s infinite linear;
   will-change: transform;     /* optimise l'animation */
   cursor: pointer;
 }
