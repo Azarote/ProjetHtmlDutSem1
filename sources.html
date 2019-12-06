@@ -102,7 +102,17 @@
 		<!-- footer -->
 		<footer class="footer-distributed" >
 			<div class="footer-left">
-				<a href="#"><img src="image/logo.png" class="rotate" ></a>
+				<a href="#"><img src="image/logo.png" class="rotate" id="myImgfooter"></a>
+								<script type="text/javascript">$(document).ready(function() {
+    					$( "#myImgfooter" ).mouseover(function(){
+        				$(this).attr("src", "image/logo2.png");
+        				});
+
+    					$( "#myImgfooter" ).mouseout(function(){
+        				$(this).attr("src", "image/logo.png");
+    					});
+						});
+						</script>
 				<h3>Véhicules<span> autonomes</span></h3>
 				<p class="footer-company-name">© 2019 Dufour | Munoz | Pesquet</p>
 			</div>
