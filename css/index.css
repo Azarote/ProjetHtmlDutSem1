@@ -38,3 +38,7 @@ body{
 .custo-carousel h1{
 	text-shadow:2px 2px 6px black;
 }
+
+.decalage-carousel{
+	margin-top:70px;
+}
