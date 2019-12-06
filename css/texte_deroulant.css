@@ -1,3 +1,5 @@
+/* Vu ici : https://nosmoking.developpez.com/demos/css/css-marque-rtl.html */
+
 .marquee-rtl {
   width: 100%;
   margin: 1em auto 2em;
@@ -7,7 +9,7 @@
   background-color:white;
 }
 .marquee-rtl > :first-child {
-  display: inline-block;      /* modéle de boîte en ligne */
+  display: inline-block;      /* disposition linéaire */
   padding-right: 2em;         /* un peu d'espace pour la transition */
   padding-left: 100%;         /* placement à doite du conteneur */
   white-space: nowrap;        /* pas de passage à la ligne */
