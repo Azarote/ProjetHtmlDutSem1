@@ -94,3 +94,7 @@ li.dropdown:hover > .dropdown-menu {
     display: block;
 }
 }
+
+abbr:hover{
+	color:red;
+}
